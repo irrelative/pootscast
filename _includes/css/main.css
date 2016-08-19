@@ -4,8 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+html {
+    height: 100%;
+}
+
 body {
     overflow-x: hidden;
+    min-height: 100%;
 }
 
 p {
@@ -179,9 +184,13 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+section.success, section.post {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+section.post {
+    padding-top: 200px;
 }
 
 @media(max-width:767px) {
