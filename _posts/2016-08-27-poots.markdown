@@ -3,6 +3,5 @@ layout: post
 title:  "Pootscast episode 1: Greatest Hits"
 date:   2016-08-17 21:58:06 -0700
 audio: /audiomedia/Pootscast080916_FINAL.mp3
+description: In this episode, Annie and Becca introduce themselves, reminisce about a unique family musical that never happened, and watch The Neverending Story as adults. 
 ---
-
-Our very first episode. Be amazed.
