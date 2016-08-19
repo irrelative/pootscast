@@ -9,14 +9,8 @@
         </div>
         <div class="row">
             {% for post in site.posts %}
-                <div class="col-sm-4 portfolio-item">
-                    <a href="/posts/{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                    </a>
+                <div class="col-sm-12 portfolio-item">
+                    <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">{{ post.title }}</a>
                 </div>
             {% endfor %}
         </div>
